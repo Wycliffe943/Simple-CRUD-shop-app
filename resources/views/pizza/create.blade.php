@@ -51,13 +51,13 @@
 
                             <div class="form-group mt-4">
                                     <fieldset>
-                                    <label><strong>Extra toppings;</strong> </label>
-                                    <div class="mt-2">
-                                        <input type="checkbox" name="toppings[]" value="Mushrooms"> Mushrooms<br />
-                                        <input type="checkbox" name="toppings[]" value="Peppers"> Peppers<br />
-                                        <input type="checkbox" name="toppings[]" value="Garlic"> Garlic<br />
-                                        <input type="checkbox" name="toppings[]" value="Olives"> Olives<br />
-                                    </div>
+                                        <label><strong>Extra toppings;</strong> </label>
+                                        <div class="mt-2">
+                                            <input type="checkbox" name="toppings[]" value="Mushrooms"> Mushrooms<br />
+                                            <input type="checkbox" name="toppings[]" value="Peppers"> Peppers<br />
+                                            <input type="checkbox" name="toppings[]" value="Garlic"> Garlic<br />
+                                            <input type="checkbox" name="toppings[]" value="Olives"> Olives<br />
+                                        </div>
                                         
                                     </fieldset>
                             </div>

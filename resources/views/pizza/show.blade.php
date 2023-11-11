@@ -20,7 +20,7 @@
                 </div>
 
                 <div class="card-footer">
-                    <form action="/pizzas/{{$pizza->id}} }}" method="post">
+                    <form action="/pizzas/{{ $pizza->id}} }}" method="post">
                         
                         @method('DELETE')
                         @csrf

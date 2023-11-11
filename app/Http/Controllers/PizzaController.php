@@ -24,7 +24,8 @@ class PizzaController extends Controller
        
     }
 
-    public function store() {
+    public function store() 
+    {
     
         // create a new pizza model instance
     
@@ -38,7 +39,7 @@ class PizzaController extends Controller
         $pizza->save();
     
         return redirect('/')->with('mssg', 'Thanks for your order!!!');
-       }
+    }
 
        public function show($id) {
 
